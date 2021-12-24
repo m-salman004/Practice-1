@@ -51,3 +51,30 @@ document.getElementById("divide").onclick = function() {
     orignalstmnt.innerHTML = "Let dividen1 = " + dividen1 + "<br>" + "Let dividen2 = " + dividen2 + "<br>" + "Let devideNumber =" + "dividen1 / dividen2";
     outputs.innerHTML = "Multiplication Of Two Numbers is " + devideNumber;
 }
+// Calculation Of Numbers
+document.getElementById("SomeCal").onclick = function() {
+    let a = 36
+    let b = 6
+    let c = a / b
+    let d = 3
+    let f = c * d
+    let g = 2
+    let h = f + g
+    let i = 4
+    let j = h ** i
+    let k = 3
+    let l = k - j
+    let m = 5
+    var someCalculation = l + m
+    var someCalculation1 = a / b * d + g * i ;
+    var someCalculation = a + "/" + b + "*" + d + "+" + g + "*" + i ;
+    orignalstmnt.innerHTML = "Let someCalculation = " + someCalculation;
+    outputs.innerHTML = "Calculations Of Some Numbers is " + someCalculation1;
+    }
+    document.getElementById("clearstmnt").onclick = function() {
+    orignalstmnt.innerText = "";
+    }
+    document.getElementById("clroutput").onclick = function() {
+    
+    outputs.innerHTML = "";
+    }
