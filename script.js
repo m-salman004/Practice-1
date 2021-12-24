@@ -12,3 +12,10 @@ document.getElementById("showVariablename").onclick = function() {
     outputs.style.paddingLeft = "50px";
     outputs.innerHTML = varname;
 }
+// Show CamleCase 
+document.getElementById("ShowCamlcase").onclick = function() {
+    var camlecase = "<li>userResponseTime</li><li>userResponseTimeLimit</li><li>user</li><li>userResponse</li>"
+    outputs.style.textAlign = "left";
+    outputs.style.paddingLeft = "50px";
+    outputs.innerHTML = camlecase;
+}
