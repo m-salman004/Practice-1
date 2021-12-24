@@ -43,3 +43,11 @@ document.getElementById("mulof2").onclick = function() {
     orignalstmnt.innerHTML = "Let mul1 = " + mul1 + "<br>" + "Let mul2 = " + mul2 + "<br>" + "Let mul =" + "mul1 * mul2";
     outputs.innerHTML = "Multiplication Of Two Numbers is " + mul;
 }
+// Division Of Two Numbers
+document.getElementById("divide").onclick = function() {
+    let dividen1 = 15;
+    let dividen2 = 5;
+    let devideNumber = dividen1 / dividen2;
+    orignalstmnt.innerHTML = "Let dividen1 = " + dividen1 + "<br>" + "Let dividen2 = " + dividen2 + "<br>" + "Let devideNumber =" + "dividen1 / dividen2";
+    outputs.innerHTML = "Multiplication Of Two Numbers is " + devideNumber;
+}
