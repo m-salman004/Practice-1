@@ -35,3 +35,11 @@ document.getElementById("subof2").onclick = function() {
     orignalstmnt.innerHTML = "Let sub1 = " + sub1 + "<br>" + "Let sub2 = " + sub2 + "<br>" + "Let sub =" + "sub1 - sub2";
     outputs.innerHTML = "Subtraction Of Two Numbers is " + sub;
 }
+// Mutliplication Of Two Numbers
+document.getElementById("mulof2").onclick = function() {
+    let mul1 = 15;
+    let mul2 = 5;
+    let mul = mul1 * mul2;
+    orignalstmnt.innerHTML = "Let mul1 = " + mul1 + "<br>" + "Let mul2 = " + mul2 + "<br>" + "Let mul =" + "mul1 * mul2";
+    outputs.innerHTML = "Multiplication Of Two Numbers is " + mul;
+}
