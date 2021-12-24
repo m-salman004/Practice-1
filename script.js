@@ -26,5 +26,12 @@ document.getElementById("sumof2").onclick = function() {
     let sum = num1 + num2;
     orignalstmnt.innerHTML = "Let num1 = " + num1 + "<br>" + "Let num2 = " + num2 + "<br>" + "Let Sum =" + "num1 + num2";
     outputs.innerHTML = "Sum Of Two Numbers is " + sum;
-
+}
+// Subtraction Of Two Numbers
+document.getElementById("subof2").onclick = function() {
+    let sub1 = 15;
+    let sub2 = 5;
+    let sub = sub1 - sub2;
+    orignalstmnt.innerHTML = "Let sub1 = " + sub1 + "<br>" + "Let sub2 = " + sub2 + "<br>" + "Let sub =" + "sub1 - sub2";
+    outputs.innerHTML = "Subtraction Of Two Numbers is " + sub;
 }
