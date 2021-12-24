@@ -19,3 +19,12 @@ document.getElementById("ShowCamlcase").onclick = function() {
     outputs.style.paddingLeft = "50px";
     outputs.innerHTML = camlecase;
 }
+// Sum Of Two Numbers
+document.getElementById("sumof2").onclick = function() {
+    let num1 = 15;
+    let num2 = 5;
+    let sum = num1 + num2;
+    orignalstmnt.innerHTML = "Let num1 = " + num1 + "<br>" + "Let num2 = " + num2 + "<br>" + "Let Sum =" + "num1 + num2";
+    outputs.innerHTML = "Sum Of Two Numbers is " + sum;
+
+}
